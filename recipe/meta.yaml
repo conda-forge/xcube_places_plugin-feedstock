@@ -1,10 +1,10 @@
 package:
   name: xcube_places_plugin
-  version: 0.0.1
+  version: 0.0.2
 
 source:
-  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.1.tar.gz
-  sha256: 54708dc16e5c2c306d65073ab1e66d94317d86f00a329d35130c1df93804e9ef
+  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.2.tar.gz
+  sha256: 2e4685530ee1d19cfb366456485d294dcb1c225bb34ecfec76c35e1f5be4046e
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - xcube >=1.0.3
+    - xcube >=1.2.0
     - xcube_geodb
     - requests
     - python-fastjsonschema
