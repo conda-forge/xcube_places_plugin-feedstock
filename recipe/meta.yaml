@@ -1,10 +1,10 @@
 package:
   name: xcube_places_plugin
-  version: 0.0.2
+  version: 0.0.3
 
 source:
-  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.2.tar.gz
-  sha256: 2e4685530ee1d19cfb366456485d294dcb1c225bb34ecfec76c35e1f5be4046e
+  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.3.tar.gz
+  sha256: b5698d110cf50547147f476443da80718bfa41c08df76bfb3a4b44c7b96f03c6
 
 build:
   noarch: python
@@ -37,3 +37,4 @@ about:
 extra:
   recipe-maintainers:
     - thomasstorm
+    - TonioF
