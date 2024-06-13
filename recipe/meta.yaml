@@ -28,7 +28,7 @@ test:
 
 about:
   summary: xcube_places_plugin allows to load features from geoDB as xcube places
-  home: https://github.com/dcs4cop/xcube-geodb-places
+  home: https://github.com/xcube-dev/xcube-geodb-places
   license: MIT
   license_family: MIT
   license_file: LICENSE
