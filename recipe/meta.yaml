@@ -1,10 +1,10 @@
 package:
   name: xcube_places_plugin
-  version: 0.0.3
+  version: 0.0.4
 
 source:
-  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.3.tar.gz
-  sha256: b5698d110cf50547147f476443da80718bfa41c08df76bfb3a4b44c7b96f03c6
+  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.4.tar.gz
+  sha256: 65abde603a67df65cb5b9cd6b022c323f1eb691fd450602a33517431db7008ed
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ test:
 
 about:
   summary: xcube_places_plugin allows to load features from geoDB as xcube places
-  home: https://github.com/dcs4cop/xcube-geodb-places
+  home: https://github.com/xcube-dev/xcube-geodb-places
   license: MIT
   license_family: MIT
   license_file: LICENSE
