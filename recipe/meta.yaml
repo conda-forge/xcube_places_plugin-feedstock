@@ -11,7 +11,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 3
 
 requirements:
   host:
@@ -28,6 +28,8 @@ requirements:
 test:
   imports:
     - xcube_places_plugin 
+  requires:
+    - python {{ python_min }} 
 
 about:
   summary: xcube_places_plugin allows to load features from geoDB as xcube places
