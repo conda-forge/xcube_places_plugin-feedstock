@@ -3,13 +3,13 @@ package:
   version: 0.0.4
 
 source:
-  url: https://github.com/dcs4cop/xcube-geodb-places/archive/refs/tags/v0.0.4.tar.gz
+  url: https://github.com/xcube-dev/xcube-geodb-places/archive/refs/tags/v0.0.4.tar.gz
   sha256: 65abde603a67df65cb5b9cd6b022c323f1eb691fd450602a33517431db7008ed
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
