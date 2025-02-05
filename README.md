@@ -3,7 +3,7 @@ About xcube_places_plugin-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube_places_plugin-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/dcs4cop/xcube-geodb-places
+Home: https://github.com/xcube-dev/xcube-geodb-places
 
 Package license: MIT
 
